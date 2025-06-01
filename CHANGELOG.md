@@ -1,3 +1,11 @@
+# [1.0.0-develop.2](https://github.com/sanderDijkxhoorn/ReactMapCC/compare/v1.0.0-develop.1...v1.0.0-develop.2) (2025-06-01)
+
+
+### Features
+
+* front-end display gym defenders ([ad4a7ca](https://github.com/sanderDijkxhoorn/ReactMapCC/commit/ad4a7cad242362f91e6349d55d7382ed3ede5dc6))
+* prepare gym defenders backend ([854b3e7](https://github.com/sanderDijkxhoorn/ReactMapCC/commit/854b3e75e61f5cba81404db409ff73849864fa86))
+
 # 1.0.0-develop.1 (2025-05-27)
 
 
