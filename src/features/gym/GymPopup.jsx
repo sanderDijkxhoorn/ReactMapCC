@@ -80,28 +80,6 @@ export function GymPopup({ hasRaid, hasHatched, raidIconUrl, ...gym }) {
           <Title backup={t('unknown_gym')}>{gym.name}</Title>
         </Grid>
         <MenuActions hasRaid={hasRaid} {...gym} />
-        {gym.defenders?.length > 0 && (
-          <Grid xs={12} textAlign="center" my={1}>
-            <button
-              type="button"
-              style={{
-                padding: 6,
-                borderRadius: 8,
-                border: '1px solid #ccc',
-                background: '#fff',
-                fontWeight: 600,
-                width: '100%',
-                fontSize: 14,
-              }}
-              onClick={(e) => {
-                e.stopPropagation()
-                setShowDefenders(true)
-              }}
-            >
-              {t('view_defenders')}
-            </button>
-          </Grid>
-        )}
         {perms.gyms && (
           <Grid xs={12}>
             <Collapse
@@ -152,6 +130,29 @@ export function GymPopup({ hasRaid, hasHatched, raidIconUrl, ...gym }) {
           <Collapse in={popups.extras} timeout="auto" unmountOnExit>
             <ExtraGymInfo {...gym} />
           </Collapse>
+        )}
+        {gym.defenders?.length > 0 && (
+          <Grid xs={12} textAlign="center" my={1}>
+            <button
+              type="button"
+              style={{
+                padding: 6,
+                borderRadius: 8,
+                border: '1px solid #888',
+                background: '#000',
+                color: '#fff',
+                fontWeight: 600,
+                width: '100%',
+                fontSize: 12,
+              }}
+              onClick={(e) => {
+                e.stopPropagation()
+                setShowDefenders(true)
+              }}
+            >
+              {t('view_defenders')}
+            </button>
+          </Grid>
         )}
       </Grid>
     </ErrorBoundary>
@@ -261,8 +262,8 @@ function DefendersModal({ gym, onClose }) {
                 >
                   {t(`poke_${def.pokemon_id}`)}
                 </span>
-                <span style={{ fontSize: 13, color: '#666' }}>
-                  CP: <b>{currentCP}</b> / {fullCP}
+                <span style={{ fontSize: 10 }}>
+                  {t('cp')}: <b>{currentCP}</b> / {fullCP}
                 </span>
               </div>
               <div
