@@ -1,3 +1,15 @@
+# [1.0.0-develop.4](https://github.com/sanderDijkxhoorn/ReactMapCC/compare/v1.0.0-develop.3...v1.0.0-develop.4) (2025-06-03)
+
+
+### Bug Fixes
+
+* attempt to reopen PR ([ae818b4](https://github.com/sanderDijkxhoorn/ReactMapCC/commit/ae818b446191c5cae97c9a8ec0ac97be1c8142c8))
+
+
+### Features
+
+* **client:** conditional gym defender heart lines & translate CP ([f9e0b61](https://github.com/sanderDijkxhoorn/ReactMapCC/commit/f9e0b6122eedfc4a963bbdde8abedb060b1d16f5))
+
 # [1.0.0-develop.3](https://github.com/sanderDijkxhoorn/ReactMapCC/compare/v1.0.0-develop.2...v1.0.0-develop.3) (2025-06-03)
 
 
