@@ -316,7 +316,7 @@ function DefendersModal({ gym, onClose }) {
                 >
                   {/* Show cracks based on health: */}
                   {percent <= 2 / 3 && (
-                    // Always show top crack if percent <= 2/3
+                    // Show top crack if percent <= 2/3
                     <path
                       d="M2,9 Q7,11 14,9 Q21,11 26,9"
                       stroke="white"
