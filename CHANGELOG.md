@@ -1,3 +1,14 @@
+# [1.0.0-develop.3](https://github.com/sanderDijkxhoorn/ReactMapCC/compare/v1.0.0-develop.2...v1.0.0-develop.3) (2025-06-03)
+
+
+### Features
+
+* **client:** better footer on gym popup ([964dc72](https://github.com/sanderDijkxhoorn/ReactMapCC/commit/964dc7201f6b0e409856d58a776c6416f9080fc9))
+* **client:** better spacing on gym popup ([26b7af7](https://github.com/sanderDijkxhoorn/ReactMapCC/commit/26b7af705c615f96898474663182df7d4123ad20))
+* **client:** fixes on gym defenders popup ([b104b10](https://github.com/sanderDijkxhoorn/ReactMapCC/commit/b104b102cc533abce123dbbf11516ba61af5507b))
+* **client:** make deffenders popup more compact ([7a07952](https://github.com/sanderDijkxhoorn/ReactMapCC/commit/7a07952b5c5d9ccf7f799569c6c552c5c7cf3dae))
+* **client:** restore comments on defenders code ([a107aa1](https://github.com/sanderDijkxhoorn/ReactMapCC/commit/a107aa16c4691d98ce6e3b86164a2dab8ca89001))
+
 # [1.0.0-develop.2](https://github.com/sanderDijkxhoorn/ReactMapCC/compare/v1.0.0-develop.1...v1.0.0-develop.2) (2025-06-01)
 
 
